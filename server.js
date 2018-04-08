@@ -7,6 +7,15 @@
 6. As an unauthenticated or authenticated user, I can see and vote on everyone's polls.
 7. As an unauthenticated or authenticated user, I can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)
 8. As an authenticated user, if I don't like the options on a poll, I can create a new option.
+
+Authenticate with: Github
+Ability to: log in, log out, create poll, delete poll, vote, see results
+logged in: create poll, delete poll, vote, see results
+not logged in: vote, see results
+
+Assets
+Home Page: Login, logout if logged in, list of polls,
+
 */
 
 const express = require('express');
