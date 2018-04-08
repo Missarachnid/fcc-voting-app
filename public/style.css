@@ -22,8 +22,8 @@ nav {
   display: inline-block;
 }
 
-.nav-pills:active {
-  background-color: 
+.nav-pills::active {
+  background-color: #009799;
 }
 
 a {
