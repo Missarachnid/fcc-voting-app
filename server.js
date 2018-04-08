@@ -1,4 +1,5 @@
 /*
+User Stories:
 1. As an authenticated user, I can keep my polls and come back later to access them.
 2. As an authenticated user, I can share my polls with my friends.
 3. As an authenticated user, I can see the aggregate results of my polls.
@@ -15,7 +16,17 @@ not logged in: vote, see results
 
 Assets
 Home Page: Login, logout if logged in, list of polls, my polls, create new poll, (thiers has a dropdown with name and ability to log out)
+Poll page(Not Logged in): Header with name of app, home button, and twitter sign in button. Name(Question asked), drop down with options, submit and share
+--Submit brings alert that tells what you voted for. It updates the graph. 
+New Poll Page: Asks for Title and options(seperated by line) has make button
+--if you click make button with no data, an alert comes up and says What info is missing
 
+
+Pages:
+Home
+Poll
+My Polls
+Create new Poll
 */
 
 const express = require('express');
