@@ -14,7 +14,7 @@ logged in: create poll, delete poll, vote, see results
 not logged in: vote, see results
 
 Assets
-Home Page: Login, logout if logged in, list of polls,
+Home Page: Login, logout if logged in, list of polls, my polls, create new poll, (thiers has a dropdown with name and ability to log out)
 
 */
 
